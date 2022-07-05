@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+#banner-area {
+    height: 700px;
+    background-image: url(images/donation13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    width: 80%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.banner-text h1 {
+    font-size: 60px;
+}
+
+.banner-text p {
+    font-size: 20px;
+}
+
+
+.donate-btn {
+    text-decoration: none;
+    background-color: #00E1FF;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+#donate {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#donate h2 {
+    font-size: 40px;
+
+}
+
+.donate-amount {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+
+}
+
+.donate-amount h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.borderd-box {
+    height: 115px;
+    width: 120px;
+    background-color: #d4c5c5;
+    margin: 20px 10px;
+    line-height: 115px;
+
+}
+
+.selected-box {
+    background-color: #EDF5F6;
+    color: #00e1ff;
+    border: 2px solid #00e1ff;
+}
+
+.other-amount {
+    margin: 20px 0px;
+    padding: 20px;
+    width: 94%;
+    border: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    font-size: 1.1rem;
+}
