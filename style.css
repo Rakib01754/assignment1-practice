@@ -146,6 +146,28 @@ p {
 }
 
 /* donate plan part end  */
+/* volunter part start  */
+#volunter {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.volunter-box {
+    display: flex;
+}
+
+.volunter-card {
+    width: 33.33%;
+    margin: 60px auto;
+}
+
+.volunter-card img {
+    height: 400px;
+    width: 300px;
+}
+
+/* volunter part end  */
 /* get update part start  */
 
 #get-update {
