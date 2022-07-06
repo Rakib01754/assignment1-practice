@@ -1,3 +1,4 @@
+/* common css part start  */
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +6,32 @@ body {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.donate-btn {
+    text-decoration: none;
+    background-color: #00E1FF;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+/* common css part end  */
+/* banner area start  */
 #banner-area {
     height: 700px;
     background-image: url(images/donation13.png);
@@ -28,29 +55,18 @@ body {
 
 .banner-text p {
     font-size: 20px;
+    font-weight: bolder;
 }
 
+/* banner area end  */
 
-.donate-btn {
-    text-decoration: none;
-    background-color: #00E1FF;
-    color: white;
-    display: inline-block;
-    padding: 15px;
-    margin-top: 20px;
-    font-weight: bold;
+/* donate now part start  */
 
-}
 
 #donate {
     width: 50%;
     margin: 100px auto;
     text-align: center;
-}
-
-#donate h2 {
-    font-size: 40px;
-
 }
 
 .donate-amount {
@@ -65,20 +81,16 @@ body {
 .donate-amount h3 {
     font-weight: 700;
     font-size: 1.8rem;
-}
-
-.borderd-box {
     height: 115px;
     width: 120px;
     background-color: #d4c5c5;
     margin: 20px 10px;
     line-height: 115px;
-
+    color: white;
 }
 
-.selected-box {
-    background-color: #EDF5F6;
-    color: #00e1ff;
+.donate-amount .selected-box {
+    background-color: #b4dde4;
     border: 2px solid #00e1ff;
 }
 
@@ -91,3 +103,100 @@ body {
     text-align: center;
     font-size: 1.1rem;
 }
+
+/* donate now part end  */
+/* donate plan part start  */
+
+.donate-plan {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-container img {
+    height: 100px;
+    width: 80px;
+}
+
+.planbox {
+    width: 300px;
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.first {
+    background-color: rgb(199, 236, 124);
+
+}
+
+.second {
+    background-color: aqua;
+}
+
+.third {
+    background-color: bisque;
+}
+
+/* donate plan part end  */
+/* get update part start  */
+
+#get-update {
+    width: 60%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#get-update form {
+    background-color: #B4DDE4;
+    padding: 10% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email-box {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #28282B;
+    border-radius: 5px;
+
+}
+
+
+.submit-btn {
+    padding: 10px 30px;
+    background-color: #00E1FF;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid #28282B;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/* get update part end  */
+
+/* footer part start  */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.stylish-text {
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace
+}
+
+/* footer part end  */
