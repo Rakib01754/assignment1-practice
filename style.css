@@ -146,23 +146,23 @@ p {
 }
 
 /* donate plan part end  */
-/* volunter part start  */
-#volunter {
+/* volunteer part start  */
+#volunteer {
     width: 80%;
     text-align: center;
     margin: 0 auto;
 }
 
-.volunter-box {
+.volunteer-box {
     display: flex;
 }
 
-.volunter-card {
+.volunteer-card {
     width: 33.33%;
     margin: 60px auto;
 }
 
-.volunter-card img {
+.volunteer-card img {
     height: 400px;
     width: 300px;
 }
